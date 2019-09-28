@@ -3,7 +3,7 @@ compiler: gcc
 
 before_install:
   - echo "Running travis scripts"
-
+  - chmod 775 *
 
 script:
   - ./testscript.sh
