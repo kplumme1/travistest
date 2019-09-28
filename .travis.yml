@@ -4,7 +4,6 @@ compiler: gcc
 before_install:
   - echo "Running travis scripts"
   - gcc -o travistest test.c
-  - chmod 775 testscript.sh
 
 script:
   - ./testscript.sh
