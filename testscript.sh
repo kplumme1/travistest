@@ -12,7 +12,5 @@ echo $(cat out)
 
 echo $(cat out2)
 
-echo $(ls -al)
-
 echo "script complete"
 
